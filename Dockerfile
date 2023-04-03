@@ -1,4 +1,5 @@
-FROM ghcr.io/home-assistant/home-assistant:stable
+ARG  IMG_VERSION=2023.3
+FROM ghcr.io/home-assistant/home-assistant:${IMG_VERSION}
 
 VOLUME /config
 
