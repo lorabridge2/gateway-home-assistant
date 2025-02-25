@@ -1,6 +1,6 @@
 # Gateway Home Assistant
 
-This repository is part of the [LoRaBridge](https://github.com/lorabridge/lorabridge) project.  
+This repository is part of the [LoRaBridge](https://github.com/lorabridge2/lorabridge) project.  
 It provides the docker image for the [Home Assistant](https://www.home-assistant.io/) webinterface used on our gateway device.  
 We basically use the [default image](ghcr.io/home-assistant/home-assistant:stable) and made few changes to include a volume with a default configuration for enabling mqtt.
 
